@@ -223,6 +223,16 @@ img {
     grid-column: 1;
     grid-row: 1;
   }
+
+  .agi .grid {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .agi .grid img {
+    max-width: 250px;
+  }
 }
 
 /* Mobile */
