@@ -176,6 +176,7 @@ pre {
 .api .grid {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  animation: slideInFromBottom 1s ease-in;
 }
 
 .api .grid > *:first-child {
