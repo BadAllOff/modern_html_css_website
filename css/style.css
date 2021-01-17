@@ -57,6 +57,11 @@ pre {
   white-space: -o-pre-wrap;
   word-wrap: break-word;
 }
+
+.hidden{
+  visibility:hidden;
+  height: 0;
+}
 /* Navbar */
 .navbar {
   background-color: var(--primary-color);
